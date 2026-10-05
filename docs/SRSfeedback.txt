@@ -1,0 +1,140 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4071 Fall 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   Assessment: GOOD
+      The specification identifies three major subsystems:
+         * Text Extraction Subsystem
+         * Case Minimap Subsystem
+         * Document Chat Subsystem
+      Each subsystem also lists several internal components. The decomposition
+      is logical and aligns with the major product goals of improving
+      transparency, explainability, and navigation within legal documents.
+   Completeness Analysis
+      The major functional areas are represented. The component breakdown
+      shows a reasonable separation between OCR processing, transcript
+      summarization, and document-question-answering capabilities.
+   Areas Missing or Underdeveloped
+      * No dedicated Data Management or Storage subsystem is identified.
+      * User interface responsibilities are scattered among subsystems.
+      * Security and compliance functions are not represented as components.
+      * Cross-subsystem interfaces are not described.
+   Suggestions for Improvement
+      * Add dedicated subsystems for Data Management, Security/Compliance,
+         and User Interface services to improve architectural completeness.
+      * Document the interfaces and data flow between OCR extraction,
+         minimap generation, and document-chat functionality to improve
+         traceability and maintainability.
+
+FUNCTIONAL REQUIREMENTS:
+   Assessment: VERY GOOD
+      The functional requirements are comprehensive and represent the
+      strongest section of the document. Coverage includes:
+         * OCR confidence scoring
+         * OCR error highlighting
+         * User-controlled highlighting
+         * Document-chat citations
+         * Citation navigation
+         * Transcript summarization
+         * Summary citations
+         * Confidence indicators
+         * Low-confidence warnings
+      The requirements are generally understandable and accompanied by
+      acceptance criteria that support verification.
+   Completeness Analysis
+      The document provides strong coverage of the intended transparency
+      features. User workflows are well represented and many error conditions
+      are considered, such as unavailable confidence scores and failed
+      summary generation.
+   Areas Missing or Underdeveloped
+      * User authentication and authorization requirements are absent.
+      * Administrative functions are not specified.
+      * Data-retention and audit capabilities are not defined.
+      * Error-recovery requirements are limited.
+   Suggestions for Improvement
+      * Add requirements governing access control, permissions, audit
+         logging, and user accountability for sensitive legal data.
+      * Add requirements defining recovery behavior when OCR processing,
+         summarization, citation generation, or navigation fails.
+
+PERFORMANCE REQUIREMENTS:
+   Assessment: FAIR TO GOOD
+      Several requirements contain measurable performance targets:
+         * Confidence scores displayed within 3 seconds.
+         * Minimap generation available within 10 seconds.
+         * Citation coverage exceeding 90%.
+         * Citation accuracy exceeding 90%.
+      These provide a starting point for validating system performance.
+   Completeness Analysis
+      The document includes a handful of performance criteria but focuses
+      primarily on feature correctness rather than operational performance.
+      Many common performance characteristics are not addressed.
+   Areas Missing or Underdeveloped
+      * Scalability requirements are absent.
+      * Availability and reliability requirements are absent.
+      * Resource-utilization requirements are absent.
+      * Document-size limits are referenced but not defined.
+      * Concurrent-user requirements are missing.
+   Suggestions for Improvement
+      * Add measurable requirements for throughput, scalability,
+         simultaneous users, uptime, and recovery from failures.
+      * Define acceptable limits for memory usage, storage consumption,
+         processing time for large documents, and supported transcript sizes.
+
+ENVIRONMENT REQUIREMENTS:
+   Assessment: GOOD
+      The environmental requirements provide a detailed description of the
+      technology stack used to develop and operate the system. The document
+      identifies frontend technologies, backend technologies, databases,
+      machine-learning tools, NLP frameworks, OCR components, and deployment
+      infrastructure. Security and privacy constraints are also discussed.
+   Completeness Analysis
+      The development environment is reasonably well specified and provides a
+      clear description of the technologies involved in implementation.
+      HIPAA-related constraints establish an important operational boundary.
+   Areas Missing or Underdeveloped
+      * Execution environment requirements are minimal.
+      * Software version requirements are not specified.
+      * Hardware requirements are not specified.
+      * Testing environment requirements are absent.
+      * Backup and disaster-recovery environments are not discussed.
+   Suggestions for Improvement
+      * Specify supported operating systems, hardware requirements,
+         dependency versions, deployment targets, and testing environments.
+      * Expand the execution-environment section to include backup,
+         monitoring, disaster recovery, and compliance-verification
+         requirements.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown                 1/1
+   Functional Requirements             4/4
+   Performance Requirements          1.5/2
+   Environment Requirements            1/1
+                                     =====
+   Subtotal                          7.5/8
+   Preliminary Schedule              1.5/2
+   ------------------------------------------------------
+   Total Percentage:  9.0/10 = 90% which is an A-minus
+
+OVERALL ASSESSMENT:
+   This document is a solid Agile-style requirements specification with a
+   strong emphasis on transparency features and user-centered behavior.
+   The functional requirements are thorough and generally testable, while
+   the subsystem decomposition provides a useful high-level structure.
+
+   Compared with a traditional Waterfall SRS, the document would benefit
+   from additional architectural decomposition, a bit stronger performance
+   requirements, and a more complete execution-environment definition.
+
+   In your Gantt chart, you should break each of the tasks out onto its
+   own line.  You have 8 tasks under "Text Extraction" and several of them
+   have the same start dates and durations.  If they are going to start at
+   the same time, they should be underneath each other on separate lines
+   in the chart.  Put every task block on its own line so that you can see
+   the dependencies more clearly.  Think "this must finish before that can
+   start" and "these two tasks can start at the same time."
