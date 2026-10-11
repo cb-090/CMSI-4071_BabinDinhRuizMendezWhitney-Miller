@@ -1,0 +1,37 @@
+CMSI 4071 Fall 2026
+Project Proposal Feedback
+Project: Briefcase
+=========================
+Guideline Requirement                        Status
+-------------------------------     ----------------------------
+High-level overview                 Meets or Exceeds Requirement
+Comparison to existing software     Meets or Exceeds Requirement
+Important features listed           Meets or Exceeds Requirement
+Hardware/software Requirements      Meets or Exceeds Requirement
+End users identified                Meets or Exceeds Requirement
+Maintenance discussed               Meets or Exceeds Requirement
+Applies prior learning              Meets or Exceeds Requirement
+Extends prior learning              Meets or Exceeds Requirement
+Appropriate difficulty              Meets or Exceeds Requirement
+Feasible in one semester            Meets or Exceeds Requirement
+Required skills/tools available     Meets or Exceeds Requirement
+Interest and motivation             Meets or Exceeds Requirement
+
+
+Summary:
+--------
+Overall Assessment
+Based only on the Proposal Document guidelines on the course website,
+this proposal appears to satisfy all required elements for both the verbal
+description and justification sections.  There are no obvious missing
+components relative to the listed requirements.
+
+Guideline-Based Recommendation
+No required additions appear necessary.  The proposal already addresses
+every item explicitly called out in the written proposal guidelines.  Any
+further additions would be enhancements in detail or style rather than
+corrections needed to meet the stated requirements.
+
+Full 5% for this deliverable.
+
+Nice job overall!  Keep up the good work.

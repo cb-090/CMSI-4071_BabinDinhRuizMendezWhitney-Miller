@@ -1,0 +1,60 @@
+
+Essay Feedback
+Homework Assignment #1
+CMSI 4071 Fall 2026
+======================
+
+SUMMARY:
+   The essay provides a strong synopsis of William Langewiesche's
+      discussion of the ValuJet Flight 592 crash.  The summary captures
+      the article's main argument that the disaster arose from a chain
+      of interacting failures rather than a single mistake.
+   The summary is comprehensive, but it occasionally focuses more on
+      recounting details than analyzing the article's overarching message
+      about complexity and organizational responsibility.
+
+RELATION TO S/W ENGINEERING
+   The essay makes several legitimate connections between the article
+      and software engineering, such as:
+      * Recognition that complex systems require fault tolerance.
+      * Discussion of scaling systems and anticipating failure cases.
+      * Consideration of engineering solutions that reduce human error.
+      * Reflection on business pressures versus customer safety.
+   These are appropriate software-engineering themes.  However, the
+      discussion remains relatively brief and somewhat general.  The
+      essay could have further explored topics such as:
+      * System-of-systems interactions.
+      * Requirements engineering.
+      * Verification and validation.
+      * Testing strategies.
+
+THOUGHTS/OPINIONS
+   The essay demonstrates independent thinking by:
+      * Discussing fault tolerance as a software engineering objective
+      * Arguing that systems should be designed to anticipate failures
+      * Reflecting on the tension between business objectives and customer
+         safety.
+   These observations show understanding and engagement with the material.
+   However, the opinion section is relatively short.  Much of the second
+      half reads as an application of concepts rather than providing
+      explicit personal reflection.
+
+SPELLING/GRAMMAR
+   The essay is generally well written and easy to follow.  There is some
+      occasional awkward phrasing ("every possible fail case cannot be
+      possibly thought of"), but these issues do not significantly affect
+      readability.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Summary of article                  29
+   Relation to S/W engineering         28
+   Thoughts/opinions presented         28
+   Spelling/Grammar                    10
+                                     -----
+   Subtotal                            95
+   ------------------------------------------------------------
+   Total Percentage:   95 out of 100 = 95% which is an A
+
+
+
