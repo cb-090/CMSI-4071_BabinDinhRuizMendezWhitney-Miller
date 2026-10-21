@@ -1,0 +1,112 @@
+
+Documentation Feedback ~ Deliverable #3
+Software Development Plan [SDP]
+CMSI 4071 Fall 2026
+=======================================
+
+INTRODUCTION/DELIVERABLES SECTION:
+   Assessment: Partially Complete
+      Strengths
+         • Three major project deliverables are clearly identified.
+         • Each deliverable includes a planned completion date.
+         • Deliverable descriptions explain intended functionality and
+           customer value.
+      Areas for Improvement
+         • Only feature deliverables are listed. Expected project
+           documents, reports, demonstrations, testing artifacts, and
+           final release materials are not identified.
+         • Acceptance criteria and completion measures are not
+           provided.
+      Suggestions
+         1. Include all major project deliverables, including design
+            documents, test reports, demonstrations, presentations,
+            user documentation, and final release materials.
+         2. Add measurable acceptance criteria for each deliverable so
+            completion can be objectively verified.
+
+PROJECT RESOURCES SECTION:
+   Assessment: Partially Complete
+      Strengths
+         • Hardware and software resources are separated into dedicated
+           subsections.
+         • The software stack is identified in considerable detail,
+           including frameworks, machine-learning tools, databases,
+           hosting technologies, and development environments.
+         • Existing system infrastructure is described.
+      Areas for Improvement
+         • Hardware resource descriptions remain very general and do not
+           identify specific development, testing, or deployment
+           environments.
+         • Personnel resources, effort estimates, and resource
+           availability assumptions are not discussed.
+      Suggestions
+         1. Identify specific hardware environments, deployment
+            platforms, storage requirements, and testing resources.
+         2. Provide personnel effort estimates and expected allocation
+            of team members across project activities.
+
+PROJECT ORGANIZATION SECTION:
+   Assessment: Complete
+      Strengths
+         • A project management approach is defined using sprints and
+            GitHub task management.
+         • Team roles are clearly identified and responsibilities are
+            described.
+         • Individual team members are assigned to specific roles.
+         • Responsibilities are generally aligned with project needs.
+      Areas for Improvement
+         • Organizational reporting relationships are not shown.
+         • Communication and decision-making procedures are not fully
+           defined.
+      Suggestions
+         1. Include a simple organizational chart showing reporting and
+            communication paths.
+         2. Define meeting schedules, escalation procedures, and change
+            management responsibilities.
+
+PROJECT SCHEDULE SECTION:
+   Assessment: Partially Complete
+      Strengths
+         • A Gantt chart is referenced and available through a linked
+            Figma document.
+         • A detailed task/resource table is included.
+         • Individual tasks are assigned to specific team members.
+         • The table identifies software technologies associated with
+            many tasks.
+      Areas for Improvement
+         • The schedule itself is largely external to the SDP and is not
+           embedded in the document.
+         • Task durations, dependencies, milestones, and critical-path
+           information are not presented in the SDP.
+         • Numerous task entries contain "TBD" software assignments,
+           suggesting incomplete planning.
+      Suggestions
+         1. Include the Gantt chart directly in the SDP and identify
+            milestone dates, dependencies, and critical tasks.
+         2. Replace TBD assignments with planned technologies and add
+            estimated durations for all major tasks.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Project Deliverables                0.9
+   Project Resources                   0.8
+   Project Organization                1.0
+   Project Schedule                    1.3
+                                     =====
+   Subtotal                            4.0
+   ------------------------------------------------------
+   Total Percentage:   4/5 = 80% which is a B-minus
+
+   The SDP presents a clear vision for the Briefcase Transparency Project
+      and provides a solid organizational structure.  The strongest section
+      is Project Organization, which clearly defines team roles and
+      responsibilities.  The weakest section is the Project Schedule
+      because the schedule details are largely external to the document and
+      several planning details remain unspecified.  The biggest
+      opportunities for improvement are:
+   • Expanding the deliverables section beyond feature
+     descriptions to include project artifacts.
+   • Providing more detailed resource planning.
+   • Embedding and elaborating the project schedule.
+
+Not bad overall!
